@@ -41,7 +41,7 @@
   :defer t)
 
 (defun prelude-css-mode-defaults ()
-  (rainbow-mode +1)
+  (rainbow-delimiters-mode +1)  ;; user modified
   (run-hooks 'prelude-prog-mode-hook))
 
 (setq prelude-css-mode-hook 'prelude-css-mode-defaults)

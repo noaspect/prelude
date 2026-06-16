@@ -65,7 +65,7 @@ Start `ielm' if it's not already running."
   (run-hooks 'prelude-lisp-coding-hook)
   (eldoc-mode +1)
   (prelude-recompile-elc-on-save)
-  (rainbow-mode +1)
+  (rainbow-delimiters-mode +1)  ;; user modified
   (setq mode-name "EL")
   (prelude-conditional-emacs-lisp-checker))
 
